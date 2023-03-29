@@ -1,0 +1,119 @@
+ML_ASSIGNMENT 1
+
+
+
+What does one mean by the term “machine learning”?
+
+>> Machine Learning is part of an AI system, where we develop algorithms 
+and can train that algorithm on the present dataset so it could predict 
+the upcoming events.
+It is divided into two categories - Supervised (trained on output)and 
+Unsupervised(clustering)
+
+2.Can you think of 4 distinct types of issues where it shines?
+
+>> Automation
+>> Prediction / forecasting
+>> Recommendations
+>> Image/Object Recognition
+
+3.What is a labeled training set, and how does it work?
+
+>>Under Supervised learning, we divide data into test and train split , 
+where in train dataset the data are labeled and hence to be trained.
+
+4.What are the two most important tasks that are supervised?
+  >> Regression and Classification
+
+5.Can you think of four examples of unsupervised tasks?
+
+>> Clustering >> Recommendation >> Dimensionality Reduction >> 
+visualisation
+
+6.State the machine learning model that would be best to make a robot walk 
+through various
+unfamiliar terrains?
+
+>> Reinforced Learning, where with every step the robot will learn .
+
+7.Which algorithm will you use to divide your customers into different 
+groups?
+
+>> For customer segmentation we will use UnSupervised Learning and try all 
+algos which gives best score
+
+8.Will you consider the problem of spam detection to be a supervised or 
+unsupervised learning
+problem?
+
+>> Supervised, we need to train with o/p labels
+
+9.What is the concept of an online learning system?
+
+>> where machines learns continuously with the continuous stream of data
+
+10.What is out-of-core learning, and how does it differ from core 
+learning?
+
+>>Out-of-core learning system is a system that can handle data that cannot 
+fit into your computer memory. It uses online learning system to feed data 
+in small bits.
+
+11.What kind of learning algorithm makes predictions using a similarity 
+measure?
+
+>> Instance Based Algorithm
+
+12.What’s the difference between a model parameter and a hyperparameter in 
+a learning
+algorithm?
+
+>> Model Parameter is all set from default, but hyperparameter need to be 
+tuned experimentally
+
+13.What are the criteria that model-based learning algorithms look for? 
+What is the most popular
+method they use to achieve success? What method do they use to make 
+predictions?
+
+>> It needs optimal parameters for best predictions, we use cost function 
+and try to minimise it, and keep updating the parameters till the cost 
+function Is minimized
+
+14.Can you name four of the most important Machine Learning challenges?
+
+>> 	Overfitting the Data (using a model too complicated)
+	under fitting
+	lack of data
+	Non representative Data
+
+
+15.What happens if the model performs well on the training data but fails 
+to generalize the results
+to new situations? Can you think of three different options?
+
+>> Model is overfitted on training dataset
+
+We can give more data, change the model, perform better feature 
+engineering
+
+16.What exactly is a test set, and why would you need one?
+
+>> test dataset is splitted from original dataset but it doesn’t have o/p 
+feature and is used to test the model accuracy
+
+17.What is a validation set’s purpose?
+
+>> compare different models
+
+18.What precisely is the train-dev kit, when will you need it, how do you 
+put it to use?
+
+>>Cross-validation is a tool to compare models without needing a separate 
+validation set. It is preferred over validation set because we can save 
+from breaking of part of the training set to create a validation set, as 
+having more data is valuable regardless.
+
+19.What could go wrong if you use the test set to tune hyperparameters?
+
+>>It won’t perform well as the data is the sample of the population
